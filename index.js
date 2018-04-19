@@ -25,3 +25,8 @@ function appendKitten(name) {
   var newkitten = kittens.concat(name);
   return newkitten;
 }
+
+function prependKitten(name) {
+  var newkitten = kittens.concat(name);
+  return newkitten;
+}
